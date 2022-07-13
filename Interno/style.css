@@ -1,0 +1,330 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/* border:1px solid red; */
+	font-family:' DM Serif Display' , serif ;
+}
+.container{
+	max-width: 80%;
+	margin: 0 auto;
+}
+nav{
+	height: 60px;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+nav ul li{
+	padding: 15px;
+	font-size: 20px;
+	font-family: ' Jost ' sans-serif;
+	display: inline-block;
+}
+nav ul li a{
+	color: #292F36;
+	text-decoration: none;
+	transition: all 0.4s;
+}
+nav ul li a:hover{
+	color: #CDA274;
+}
+
+/* end of nav */
+
+.header_main{
+	background-image: url(img/background.png);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-radius: 0% 0% 0   40%;
+}
+.header_text{
+	display:grid;
+	height: 80vh;
+	align-items: center;
+	margin: 0% 0 0 0 ;
+}
+.header_text h1{
+	font-size: 80px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 95	px;
+	font-family: 'DM Serif Display', serif;
+}
+.header_text p{
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 33px;
+	letter-spacing: 0.22px;
+	margin: 50px 0;
+}
+a.umumiy_btn{
+	background-color: #292F36;
+	border-radius: 18px;
+	border: 2px solid #292F36;
+	padding: 15px 40px ;
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+	font-family: ' Jost ' sans-serif;
+}
+.row{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	width: 70%;
+	
+}
+.header_cards{
+	width: 100%;
+	margin: 10% 0;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+.header_cards .row .col h2{
+	padding: 10px;
+	font-size: 25px;
+	font-family: 'DM Serif Display', serif;
+	font-weight: 40;
+}
+.header_cards .row .col p {
+	padding-bottom:40px ;
+	font-size: 20px;
+	font-family: ' Jost ' sans-serif;
+	color:#4D5053 ;
+}
+a.header_cards_btn{
+	text-decoration: none;
+	color: #4D5053;
+	font-style:thin ;
+	font-family: ' Jost ' sans-serif;
+}
+a.header_cards_btn i{
+	color: #CDA274;
+}
+.rowcha{
+	width: 70%;
+}
+.header_texttcha .col h1{
+	font-family: 'DM Serif Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 65px;
+	
+}
+.header_text .col p{
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 33px;
+	letter-spacing: 0.22px;
+	color: #4D5053;
+}
+.main_h1{
+	display: flex;
+	text-align: center;
+	font-size: 40px;
+	justify-content: center;
+	padding-bottom: 25px;
+}
+.umumiy_btna{
+	background-color: #292F36;
+	border-radius: 18px;
+	border: 2px solid #292F36;
+	padding: 15px 40px ;
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+	font-family: ' Jost ' sans-serif;
+}
+
+
+
+
+.about_interno{
+	margin: 100px 0;
+	background-color: #F4F0EC;
+	border-radius: 70px;
+	padding: 103px 51px;
+	border-radius: #F4F0EC;
+}
+
+.about_cards{
+	display: flex;
+	margin: 0 5%;
+
+}
+.about_card{
+	background-color: #fff;
+	padding: 45px 35px;
+	margin: 10px;
+	font-family: 'Jost';
+	font-weight: 400;
+	border-radius: 30px;
+	
+}
+.about_card_header{
+	display: flex;
+	align-items: center;
+}
+.about_card_header img{
+	padding-right: 20px;
+	padding-bottom: 0px;
+}
+.about_card_body p{
+	margin: 30px 0;
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.22px;
+	color: #4D5053;
+
+}
+.brends{
+	margin: 10px 0px 70px;
+}
+.main_p{
+	text-align: center;
+	color: #4D5053;
+	font-family: 'Jost';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 33px;
+	letter-spacing: 0.22px;
+}
+.str{
+	font-family: verdana;
+	font-size: 22px;
+}
+.recent_projects{
+	display: flex;
+	justify-content: space-around;
+}
+.recent_pro_card{
+
+	margin: 10px;
+}
+.recent_pro_card_bottom{
+	display: flex;
+	align-items: center;
+	padding: 10px 00px;
+	justify-content: space-between;
+}
+.fa-angle-right{
+	font-size: 30px;
+	color: #292F36;
+	padding:14px 20px;
+	border-radius: 100px;
+	border: 1px solid #CDA274;
+	background-color: #F4F0EC;
+}
+.rating{
+	background-color: #F4F0EC;
+	margin: 200px 0 143px;
+}
+.rating_cards{
+	display: flex;
+	justify-content: space-around;
+	padding: 200px 0;
+	
+}
+.rating_card{
+	padding:10px 57.4px;
+}
+.rating_score{
+	font-family: 'Dm Serif Display';
+	font-size: 85px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 128px;
+	text-align: center;
+	letter-spacing: 1.7px;
+	color: #CDA274;
+}
+.rating_text{
+	font-family: 'Jost';
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 33px;
+	text-align: center;
+	letter-spacing: 0.22px;
+	color: #4D5053;
+}
+.blog_cards{
+	display: flex;
+	margin: 30px 15px;
+	justify-content: space-around;
+}
+.blog_card{
+	width: 100%;
+	padding: 21px;
+	border: 1px solid #e7e7e7;
+	border-radius: 62px;
+	margin: 15px 1.5%;
+}
+.blog_card_body{
+	display: flex;
+	margin-bottom: 10px;
+	justify-content: space-between;
+	align-items: center;
+}
+.kichikcha{
+	position: absolute;
+	left: 15%;
+	margin-top: 9.5%;
+	border-radius: 5px 5px 5px 0;
+	background-color:#fff;
+	padding: 10px;
+}
+.kichikcha1{
+	position: absolute;
+	left: 41%;
+	margin-top: 9%;
+	border-radius: 5px 5px 5px 0;
+	background-color:#fff;
+	padding: 10px;
+}
+.kichikcha2{
+	position: absolute;
+	left: 67%;
+	margin-top: 9%;
+	border-radius: 5px 5px 5px 0;
+	background-color:#fff;
+	padding: 10px;
+}
+.butt{
+	display: block;
+	margin: 0 auto;
+	padding: 20px 45px;
+	font-size: 20px;
+	border:1px solid #CDA274;
+	background-color: #CDA274;
+	color: #fff;
+	height: 71px;
+	width: 275px;
+	left: 0px;
+	top: 800px;
+	border-radius: 18px;
+
+}
+.about_interno1{
+	background-color: #292F36;
+	border: 1px solid #292F36;
+	border-radius: 50px;
+	padding: 50px 51px;
+	margin: 50px 0;
+	color: #fff;
+}
+.ppp1{
+	margin: 2% 0;
+}
